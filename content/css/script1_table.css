@@ -1,0 +1,41 @@
+#script1 {
+    text-align: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+#script1 label, input, button{
+    margin: 1vw;
+    font-size: 2vw;
+}
+
+#script1 input {
+    background-color: #e0e0e0;
+    color: black;
+    border: none;
+    padding: 1vw;
+}
+
+#script1 button {
+    background-color: #007a41;
+    padding: 1vw;
+    border: none;
+    width: 40vw;
+}
+
+#script1_table {
+    margin: auto;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-size: 2vw;
+}
+
+#script1_table th {
+    background-color: #007a41;
+    padding:1vw;
+}
+#script1_table td {
+    background-color: #e0e0e0;
+    color: black;
+    padding:1vw;
+}

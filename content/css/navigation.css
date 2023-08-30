@@ -1,0 +1,31 @@
+#navigation {
+    background-color: #131313;
+    text-align: center;
+}
+
+#current-page {
+    color: #37c0ff;
+    font-size: 2vw;
+    display: inline-block;
+    text-decoration: solid;
+}
+
+a {
+    font-size: 2vw;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #37c0ff;
+}
+
+.divider {
+    height: 1vw;
+    width: 1vw;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: inline-block;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}

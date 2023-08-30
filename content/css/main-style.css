@@ -1,0 +1,57 @@
+* {
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+}
+
+div {
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    min-height: 110%;
+}
+
+#banner {
+    background-color: #007a41;
+    text-align: center;
+}
+
+#banner h1,h3 {
+    width: 100%;
+}
+
+#banner h1 {
+    padding-top: 5vh;
+}
+#banner h3 {
+    padding-bottom: 5vh;
+}
+
+h1,h2,h3,p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 10vw;
+}
+
+h2 {
+    padding-top: 5vh;
+    font-size: 8vw;
+}
+
+h3 {
+    font-size: 4vw;
+}
+
+p {
+    font-size: 2vw;
+    display: inline;
+}
+
+img {
+    padding: 1vw;
+}
