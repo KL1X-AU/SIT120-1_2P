@@ -1,0 +1,35 @@
+#script1 {
+    text-align: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+#script2 label, input, button{
+    margin: 1vw;
+    font-size: 2vw;
+}
+
+#script2 input {
+    background-color: #e0e0e0;
+    color: black;
+    border: none;
+    padding: 1vw;
+}
+
+#script2 button {
+    background-color: #007a41;
+    padding: 1vw;
+    border: none;
+    width: 15vw;
+}
+
+#script2_table {
+    margin: auto;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-size: 2vw;
+}
+
+#script2_table td {
+    padding:1vw;
+}

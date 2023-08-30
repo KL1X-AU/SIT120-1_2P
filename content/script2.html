@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main-style.css">
     <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/script2.css">
 </head>
 <body>
     <div>
@@ -22,6 +23,35 @@
             <a href="script4.html">Script 4</a>
             <div class="divider"></div>
             <a href="script5.html">Script 5</a>
+        </div>
+        <div id="script2">
+            <table id="script2_table">
+                <tr>
+                    <td><label>Number 1:</label></td>
+                    <td><input type="text" id="script2_input_1" style="color:black;" value="0"></td>
+                </tr>
+                <tr>
+                    <td><label>Number 2:</label></td>
+                    <td><input type="text" id="script2_input_2" style="color:black;" value="0"></td>
+                </tr>
+                <tr>
+                    <td><label>Decimal Places:</label></td>
+                    <td><input type="text" id="script2_input_3" style="color:black;" value="0"></td>
+                </tr>
+            </table>
+        
+            <div>
+                <button type="button" id="script2_add">+</button>
+                <button type="button" id="script2_sub">-</button>
+                <button type="button" id="script2_div">/</button>
+                <button type="button" id="script2_mult">X</button>
+                <button type="button" id="script2_exp">^</button>
+            </div>
+            
+
+            <h2 id="script2_output">0</h2>
+
+            <script src="js/script2.js"></script>
         </div>
     </div>
     
