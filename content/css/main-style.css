@@ -11,7 +11,6 @@ body {
 div {
     text-align: center;
     background-color: rgb(37, 37, 37);
-    min-height: 110%;
 }
 
 #banner {
@@ -36,6 +35,7 @@ h1,h2,h3,p {
 
 h1 {
     font-size: 10vw;
+    
 }
 
 h2 {
@@ -49,9 +49,107 @@ h3 {
 
 p {
     font-size: 2vw;
-    display: inline;
 }
 
 img {
     padding: 1vw;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1vw;
+    grid-auto-rows: minmax(10vw,auto);
+    padding: 1vw;
+}
+
+.container div {
+    padding: 1vw;
+}
+
+.container p {
+    font-size: 2vw;
+}
+
+#box1 {
+    background-color: red;
+    grid-column: 1/5;
+    grid-row:1;
+}
+#box2 {
+    background-color: rgb(0, 4, 255);
+    grid-column: 1/5;
+    grid-row:2;
+}
+#box3 {
+    background-color: rgb(0, 255, 34);
+    grid-column: 1/5;
+    grid-row:3;
+}
+#box4 {
+    background-color: rgb(255, 0, 179);
+    grid-column: 1/5;
+    grid-row:4;
+}
+#box5 {
+    background-color: rgb(0, 255, 191);
+    grid-column: 1/5;
+    grid-row:5;
+}
+
+@media only screen and (min-width: 600px) {
+    #box1 {
+        background-color: red;
+        grid-column: 1/5;
+        grid-row:1;
+    }
+    #box2 {
+        background-color: rgb(0, 4, 255);
+        grid-column: 1/3;
+        grid-row:2/4;
+    }
+    #box3 {
+        background-color: rgb(0, 255, 34);
+        grid-column: 3/5;
+        grid-row:2/4;
+    }
+    #box4 {
+        background-color: rgb(255, 0, 179);
+        grid-column: 1/5;
+        grid-row:4;
+    }
+    #box5 {
+        background-color: rgb(0, 255, 191);
+        grid-column: 1/5;
+        grid-row:5;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #box1 {
+        background-color: red;
+        grid-column: 1/5;
+        grid-row:1;
+    }
+    #box2 {
+        background-color: rgb(0, 4, 255);
+        grid-column: 3/5;
+        grid-row:2/3;
+    }
+    #box3 {
+        background-color: rgb(0, 255, 34);
+        grid-column: 1;
+        grid-row:2;
+    }
+    #box4 {
+        background-color: rgb(255, 0, 179);
+        grid-column: 2;
+        grid-row:2;
+    }
+    #box5 {
+        background-color: rgb(0, 255, 191);
+        grid-column: 1/5;
+        grid-row:3;
+    }
+}
+

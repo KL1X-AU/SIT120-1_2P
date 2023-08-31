@@ -1,0 +1,35 @@
+#script3 {
+    text-align: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+#script3 label, input, button{
+    margin: 1vw;
+    font-size: 2vw;
+}
+
+#script3 input {
+    background-color: #e0e0e0;
+    color: black;
+    border: none;
+    padding: 1vw;
+}
+
+#script3 button {
+    background-color: #007a41;
+    padding: 1vw;
+    border: none;
+    width: 15vw;
+}
+
+#script3_table {
+    margin: auto;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-size: 2vw;
+}
+
+#script3_table td {
+    padding:1vw;
+}

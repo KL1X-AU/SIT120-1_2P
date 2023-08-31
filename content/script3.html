@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main-style.css">
     <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/script3.css">
 </head>
 <body>
     <div>
@@ -20,8 +21,19 @@
             <a id="current-page" ref="script3.html">Script 3</a>
             <div class="divider"></div>
             <a href="script4.html">Script 4</a>
-            <div class="divider"></div>
-            <a href="script5.html">Script 5</a>
+        </div>
+        <div id="script3">
+            <label>Item:</label>
+            <input type="text" id="script3_input" style="color:black;" value="Item Name Here">
+            <div>
+                <button type="button" id="script3_add">Add To List</button>
+                <button type="button" id="script3_remove">Remove Last Item</button>
+                <button type="button" id="script3_remove_select">Remove Chosen Item</button>
+                <button type="button" id="script3_clear">Clear List</button>
+            </div>
+            <p id="script3_list"></p>
+        
+            <script src="js/script3.js"></script>
         </div>
     </div>
     
